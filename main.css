@@ -1,0 +1,401 @@
+/*////////////fonts//////////////////*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+
+
+/*//////////reset////////////////*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*///////////////////////////repeatative used colors and fonts*/
+:root {
+    --main-font: 'Encode Sans', sans-serif;
+    --margin-mobile-control: 30px;
+}
+
+
+/*//////////////header section using bootstrap////////*/
+.navbar {
+    box-shadow: 1px 1px 1px 1px #292b2c;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/*/////////////////landing page section///////////////*/
+.landing-section {
+    height: 450px;
+}
+
+.heading-and-img {
+    height: 500px;
+    width: 49vw;
+}
+
+.landing-img {
+    height: 460px;
+    width: 480px;
+}
+
+.heading {
+    padding: 150px 0  2px 150px;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: var(--main-font);
+}
+
+.sub-heading {
+    padding: 0 0 0 150px;
+    font-size: 2rem;
+    opacity: 0.6;
+    font-family: var(--main-font);
+}
+
+/*///////////////////cards section//////////////////////*/
+.card-section {
+    background-color: rgba(0, 0, 0, 0.150);
+    height: 350px;
+    margin-top: 30px;
+}
+
+.card {
+    height: 250px;
+    text-align: center;
+    margin: 50px 0 0 75px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.400);
+}
+
+.card-sub-heading {
+    font-size: 0.9rem;
+    font-family: var(--main-font);
+}
+
+/*///////////////////////carousel section////////////////////*/
+.carousel-section {
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.150);
+    margin-top: 30px;
+}
+
+.caro-img {
+    height: 350px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    margin-top: 40px;
+}
+
+.carousel {
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+}
+
+/*/////////////////footer section//////////////*/
+
+.footer-section {
+    height: 120px;
+}
+
+.link-btns {
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.footer-heading-section {
+    text-align: center;
+    height: 60px;
+    padding-top: 20px;
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    font-family: var(--main-font);
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+/*////////////////////mobile and tab friendly webpage/////////////*/
+/*////////////////////////300px to 400px/////////////////*/
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    /*/////////////////landing page section///////////////*/
+.landing-section {
+    height: 400px;
+}
+
+.heading-and-img {
+    height: 180px;
+    width: 49vw;
+    text-align: center;
+}
+
+
+.landing-img {
+    height: 230px;
+    width: 250px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    padding: 0;
+    margin-top: var(--margin-mobile-control);
+}
+
+.sub-heading {
+    font-size: 1rem;
+    padding: 0;
+}
+
+
+/*///////////////////cards section//////////////////////*/
+.card-section {
+    background-color: rgba(0, 0, 0, 0.150);
+    height: 720px;
+}
+
+.card {
+    height: 210px;
+    margin: 15px 30px 0 30px;
+}
+
+
+/*///////////////////////carousel section////////////////////*/
+.carousel-section {
+    height: 190px;
+    background-color: rgba(0, 0, 0, 0.150);
+    margin-top: 30px;
+}
+
+.caro-img {
+    height: 150px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    margin-top: 20px;
+}
+
+.carousel-caption h5 {
+    font-size: 1rem;
+}
+
+/*/////////////////footer section//////////////*/
+
+.footer-section {
+    height: 140px;
+}
+
+.link-btns {
+    height: 70px;
+    padding-top: 25px;
+}
+
+.footer-heading-section {
+    height: 70px;
+    padding-top: 25px;
+}
+
+.footer-heading {
+    font-size: 1rem;
+}
+
+}
+
+
+/*////////////////////////400px to 600px/////////////////*/
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    /*/////////////////landing page section///////////////*/
+.landing-section {
+    height: 400px;
+}
+
+.heading-and-img {
+    height: 180px;
+    width: 49vw;
+    text-align: center;
+}
+
+.landing-img {
+    height: 230px;
+    width: 250px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    padding: 0;
+    margin-top: var(--margin-mobile-control);
+}
+
+.sub-heading {
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+
+/*///////////////////cards section//////////////////////*/
+.card-section {
+    background-color: rgba(0, 0, 0, 0.150);
+    height: 880px;
+}
+
+.card {
+    height: 260px;
+    margin: 15px 30px 0 30px;
+}
+
+
+/*///////////////////////carousel section////////////////////*/
+.carousel-section {
+    height: 200px;
+}
+
+.caro-img {
+    height: 160px;
+    width: 290px;
+}
+
+.carousel-item {
+    margin-top: 20px;
+}
+
+}
+
+
+
+/*////////////////////////600px to 700px/////////////////*/
+@media screen and (min-width: 600px) and (max-width: 766px) {
+    /*/////////////////landing page section///////////////*/
+.heading-and-img {
+    height: 180px;
+    width: 49vw;
+    text-align: center;
+}
+
+.landing-img {
+    height: 230px;
+    width: 250px;
+}
+
+.heading {
+    font-size: 3rem;
+    padding: 0;
+    margin-top: var(--margin-mobile-control);
+}
+
+.sub-heading {
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+
+/*///////////////////cards section//////////////////////*/
+.card-section {
+    height: 1400px;
+}
+
+.card {
+    height: 420px;
+    margin: 15px 0 0 0;
+}
+
+}
+
+
+
+
+/*////////////////////////768px to 900px/////////////////*/
+@media screen and (min-width: 768px) and (max-width: 900px) {
+    /*/////////////////landing page section///////////////*/
+.heading-and-img {
+    height: 350px;
+    width: 49vw;
+}
+
+.landing-img {
+    height: 370px;
+    width: 370px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 150px 0 0 150px;
+}
+
+.sub-heading {
+    font-size: 1rem;
+    padding: 0;
+    margin-left: 150px;
+}
+
+
+/*///////////////////cards section//////////////////////*/
+.card-section {
+    height: 250px;
+}
+
+.card {
+    height: 200px;
+    margin: 25px 0 0 55px;
+}
+
+}
+
+
+
+/*////////////////////////900px to 1100px/////////////////*/
+@media screen and (min-width: 900px) and (max-width: 1100px) {
+    /*/////////////////landing page section///////////////*/
+.landing-section {
+    height: 400px;
+}
+
+.heading-and-img {
+    height: 350px;
+    width: 49vw;
+}
+
+.landing-img {
+    height: 370px;
+    width: 370px;
+}
+
+.heading {
+    padding: 0;
+    margin: 150px 0 0 150px;
+}
+
+.sub-heading {
+    padding: 0;
+    margin-left: 150px;
+}
+
+
+/*///////////////////cards section//////////////////////*/
+.card-section {
+    height: 250px;
+}
+
+.card {
+    height: 200px;
+    margin: 25px 0 0 65px;
+}
+
+}
